@@ -1,0 +1,185 @@
+/* HELLO ! */
+
+/* Mise en page générale */
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #454545;
+}
+
+header {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 13px;
+	z-index: 2;
+}
+
+#main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: -60px;
+}
+
+footer {
+	background-color: #f2f2f2;
+}
+
+a {
+	color: #505050;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+
+#services a {
+	margin: 10px;
+}
+
+#menu {
+	margin: 2px 0 0 10px;
+}
+
+#menu img {
+	height: 20px;
+}
+
+#menu_dark {
+	display: none;
+}
+
+#menu:hover #menu_dark {
+	display: inline;
+}
+
+#menu:hover #menu_light {
+	display: none;
+}
+
+#user {
+	margin: 0 40px 0 20px;
+}
+
+#user_icon {
+	background-color: lightseagreen;
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 17px;
+}
+
+#user a:hover {
+	text-decoration: none;
+}
+
+/* Logo */
+
+#logo img {
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+/* Barre de recherche */
+
+#search {
+	width: 500px;
+	padding: 5px 20px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #c4c4c4;
+}
+
+#search:hover {
+	box-shadow: #c4c4c4 0 3px 15px;
+	border: none;
+	margin-top: 2px;
+}
+
+#search i {
+	display: flex;
+	align-items: center;
+}
+
+#search i img {
+	height: 18px;
+}
+
+/* Bouttons */
+
+#search input {
+	margin-left: 20px;
+	height: 30px;
+	border: none;
+	font-size: 16px;
+}
+
+#submit {
+	margin-top: 30px;
+}
+
+button {
+	background-color: #f2f2f2;
+	padding: 10px 18px;
+	margin: 0 3px;
+	border: none;
+	border-radius: 5px;
+	color: #505050;
+	font-size: 14px;
+}
+
+button:hover {
+	color: #252525;
+	border: 1px solid #b4b4b4;
+	background: linear-gradient(#f9f9f9, #f2f2f2);
+	padding: 9px 17px;
+	cursor: pointer;
+}
+
+/* Footer */
+
+#local {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	height: 40px;
+	padding: 0 30px;
+	font-size: 14px;
+}
+
+#links {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+	font-size: 13px;
+	padding: 0 20px;
+}
+
+#links a {
+	margin: 0 10px;
+}
